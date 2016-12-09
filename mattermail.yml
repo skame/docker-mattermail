@@ -1,0 +1,6 @@
+mattermail:
+  container_name: mattermail
+  image: skame/mattermail
+  volumes:
+    - ./mattermail.json:/config.json
+
